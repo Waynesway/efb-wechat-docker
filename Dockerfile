@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.11-alpine
 COPY . /opt/app
 WORKDIR /opt/app
 ENV EFB_DATA_PATH  /opt/app/ehforward_config
